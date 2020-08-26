@@ -1,5 +1,7 @@
 clear all;
 
+% Loading the data(1.6GB)
+
 url = 'https://www.mathworks.com/supportfiles/predmaint/chemical-process-fault-detection-data/faultytesting.mat';
 websave('faultytesting.mat',url);
 url = 'https://www.mathworks.com/supportfiles/predmaint/chemical-process-fault-detection-data/faultytraining.mat';
